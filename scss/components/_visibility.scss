@@ -6,8 +6,8 @@
 /// @group visibility
 ////
 
-.hide-for-large {
-  display: none !important;
+*.hide-for-large {
+  display: none;
   mso-hide: all; // hide selected elements in Outlook 2007-2013
   overflow: hidden;
   max-height: 0;
@@ -59,8 +59,8 @@ table.body table.container .show-for-large {
 //   width: 0;
 // }
 // in media query
-// img { 
-//   max-height: none !important; 
-//   width: auto !important; 
+// img {
+//   max-height: none !important;
+//   width: auto !important;
 // }
 
